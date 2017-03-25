@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/asflip-it/critics-hub/issues"
   },
-  "homepage": "https://github.com/asflip-it/critics-hub#readme"
+  "homepage": "https://github.com/asflip-it/critics-hub#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
 }

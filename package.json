@@ -22,5 +22,8 @@
   "homepage": "https://github.com/asflip-it/critics-hub#readme",
   "dependencies": {
     "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }

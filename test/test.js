@@ -14,6 +14,15 @@ describe('Crawler', function() {
             })
         })
 
+        it('Throws an Error when URL is invalid', function() {
+            assert.throws(function() {
+                crawler.request_url('htt://www.gamespot.com/reviews/?page=10')
+            }, Error)
+            assert.doesNotThrow(function() {
+                crawler.request_url('https://www.gamespot.com/reviews/?page=10')
+            }, Error)
+        })
+
     })
 
 })

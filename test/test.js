@@ -2,6 +2,8 @@ const assert = require('assert')
 
 const crawler = require('../libs/crawler.js')
 
+// TODO: Use TDD DSL Interface insetead of the BDD interface (which is the one being used right now)
+
 describe('Crawler', function() {
 
     describe('Page Requisition', function() {

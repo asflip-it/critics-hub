@@ -1,7 +1,9 @@
 "use strict"
 
-const GamespotRequester = require('./requester.js').GamespotRequester
+const request = require('request');
 
-let gs_req = new GamespotRequester('gsr-head-1', {})
+function request_url(url, callback) {
+    request(url, callback)
+}
 
-gs_req.get('https://www.gamespot.com/reviews/?page=10', '10')
+exports.request_url = request_url;
